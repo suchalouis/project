@@ -18,6 +18,7 @@ dfRest_Indices=pd.read_csv("data/dfApp_Rest.csv")
 dfRest_Indices=dfRest_Indices.set_index('id')
 
 
+
 ### FUNCTIONS
 def value_player(x):
     return df[df['id']==x]['value'].iloc[0]
