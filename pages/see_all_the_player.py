@@ -26,7 +26,7 @@ local_css("style/style.css")
 
 
 
-df=pd.read_csv("dfApp.csv")
+df=pd.read_csv("data/dfApp.csv")
 df=df.drop('Unnamed: 0', axis=1)
 
 

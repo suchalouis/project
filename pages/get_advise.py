@@ -11,10 +11,10 @@ def local_css(file_name):
 local_css("style/style.css")
 
 
-df=pd.read_csv("dfApp.csv")
-dfGK_Indices=pd.read_csv("dfApp_GK.csv")
+df=pd.read_csv("data/dfApp.csv")
+dfGK_Indices=pd.read_csv("data/dfApp_GK.csv")
 dfGK_Indices=dfGK_Indices.set_index('id')
-dfRest_Indices=pd.read_csv("dfApp_Rest.csv")
+dfRest_Indices=pd.read_csv("data/dfApp_Rest.csv")
 dfRest_Indices=dfRest_Indices.set_index('id')
 
 
